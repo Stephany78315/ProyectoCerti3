@@ -1,9 +1,11 @@
-Para hacer la prueba con la intancia de EC2 creada mandando mensajes a la cola de SQS que se han es neceasrio estos comandos con
-ciertos datos cambiados dependiendo las instancias creadas en cada cuenta de AWS.
+Para hacer la prueba con la intancia de EC2 creada mandando mensajes a la cola de SQS que se han es necesario estos comandos con
+ciertos datos cambiados dependiendo las instancias creadas en cada cuenta propia de AWS.
 
 Cabe destacar que el endpoint-url del comando a través de Internet se mantiene en cambio
 el comando de a través del endpoint de la VPC en la sección de endpoint-url se tiene que ingresar el url de su respectivo endpoint creado 
 en su cuenta de AWS.
+
+Los datos ingresados son un ejemplo, cada uno lo tiene que cambiar con datos de sus propias instancias creadas en cada cuenta.
 
 A través del Internet: 
 E.g. aws sqs send-message
